@@ -20,6 +20,7 @@ phases:
         commands: 
             - echo "This is the start of Pre-Build phase"
             - echo "Pre-Build phase is now completed"
+            - echo "updated code"
     build:
         commands:
             - echo "we are currently on build phase"
