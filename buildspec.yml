@@ -14,7 +14,8 @@ phases:
             - echo "Print Environment Variables"
             - echo "Start the installation process"
             - echo "Installation Process Completed"
-            - echo "Hello Env name $name"
+            - echo "Hello Env name $name",
+            - printenv
     pre_build:
         commands: 
             - echo "This is the start of Pre-Build phase"
